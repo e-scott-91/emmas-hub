@@ -1,20 +1,19 @@
 import React from 'react';
-
-import './App.css';
-import HomePage from "./pages/HomePage";
+import {Outlet} from "react-router-dom";
 import Header from "./components/header/Header";
+import './Layout.css';
 
-function App() {
+function Layout() {
   return (
       <div className="App">
           <div className="header">
               <Header/>
           </div>
           <div className="home-page-body">
-              <HomePage/>
+              <Outlet/>
           </div>
       </div>
   );
 }
 
-export default App;
+export default Layout;

@@ -1,5 +1,6 @@
 nav {
     border: 1px solid grey;
+    background-color: black;
 }
 
 .header-nav-bar {
@@ -12,8 +13,8 @@ nav {
     align-items: center;
 }
 
-.div-svg {
-    height: 45px;
-    width: 45px;
-    padding: 20px;
+.nav-link {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
 }

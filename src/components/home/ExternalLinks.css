@@ -2,3 +2,9 @@
     display: flex;
     justify-content: center;
 }
+
+.div-svg {
+    height: 45px;
+    width: 45px;
+    padding: 20px;
+}

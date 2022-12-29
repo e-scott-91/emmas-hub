@@ -5,17 +5,28 @@ import HomePage from "./pages/HomePage";
 import Achievements from "./pages/Achievements";
 import Blogs from "./pages/Blogs";
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Layout from './Layout';
+import NoPage from "./pages/NoPage";
+
+export default function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout/>}>
+                    <Route index element={<HomePage/>}/>
+                    <Route path="blogs" element={<Blogs/>}/>
+                    <Route path="achievements" element={<Achievements/>}/>
+                    <Route path="*" element={<NoPage/>}/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
