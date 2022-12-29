@@ -1,10 +1,5 @@
-nav{
-    height: 50px;
-    width: 100%;
+nav {
     border: 1px solid grey;
-    position: absolute;
-    top:0;
-    left:0;
 }
 
 .header-nav-bar {

@@ -5,12 +5,10 @@
     flex-direction: row;
 }
 
-HomePageInfo {
-    flex-grow: 1;
+.home-page-info {
     flex-basis: 50%;
 }
 
 .avatar {
-    flex-grow: 1;
     flex-basis: 50%;
 }
