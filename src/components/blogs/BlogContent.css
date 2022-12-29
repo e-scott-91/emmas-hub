@@ -5,3 +5,18 @@
 .books-image {
     padding-left: 15px;
 }
+
+.blog-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blog-post {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+

@@ -5,3 +5,8 @@ body {
 * {
   font-family: "Gill Sans", sans-serif;
 }
+
+h2, p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
