@@ -1,0 +1,24 @@
+nav{
+    height: 50px;
+    width: 100%;
+    border: 1px solid grey;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.header-nav-bar {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.div-svg {
+    height: 45px;
+    width: 45px;
+    padding: 20px;
+}
