@@ -1,5 +1,6 @@
 .blog-content {
     height: 100vh;
+    padding: 20px;
 }
 
 .books-image {
@@ -14,9 +15,10 @@
     padding: 30px;
 }
 
-.blog-post {
+.blog-post-option {
     padding: 30px;
     display: flex;
     flex-direction: column;
-}
+    text-decoration: none;
 
+}
