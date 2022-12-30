@@ -1,6 +1,8 @@
 nav {
     border: 1px solid grey;
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-nav-bar {
@@ -8,13 +10,19 @@ nav {
     height: 100%;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
 }
 
 .nav-link {
     padding: 15px;
     color: white;
-    text-decoration: none;
+    text-decoration: red;
+}
+
+.site-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
