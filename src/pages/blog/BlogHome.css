@@ -1,6 +1,8 @@
-.blog-content {
+.blog-page {
     height: 100vh;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .books-image {
@@ -13,12 +15,26 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
+    /*font-family: "Gill Sans", sans-serif;*/
 }
 
 .blog-post-option {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-
 }
+
+.blog-post-option-description {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    text-align: left;
+}
+
+.post-icon {
+    width: 100px;
+    heigh: 100px;
+    align-self: center;
+}
+
+

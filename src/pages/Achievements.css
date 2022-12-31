@@ -1,0 +1,19 @@
+.achievements-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.small-font {
+    font-size: x-small;
+}
+
+.a11y {
+    height: 100px;
+    width: 100px;
+}

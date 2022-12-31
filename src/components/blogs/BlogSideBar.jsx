@@ -1,5 +1,5 @@
 import React from 'react';
-import "./BlogSideBar.css";
+import './BlogSideBar.css';
 
 export default function BlogSideBar() {
     return (

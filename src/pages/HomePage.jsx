@@ -1,6 +1,6 @@
 import React from 'react';
-import HomePageInfo from "../components/home/HomePageInfo";
-import avatar from "../assets/avatar.png";
+import HomePageInfo from '../components/home/HomePageInfo';
+import avatar from '../assets/avatar.png';
 import './HomePage.css';
 
 function HomePage() {

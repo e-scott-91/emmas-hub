@@ -1,6 +1,6 @@
 import React from 'react';
-import ExternalLinks from "./ExternalLinks";
-import { ReactComponent as Wave } from "../../assets/wave.svg";
+import ExternalLinks from './ExternalLinks';
+import { ReactComponent as Wave } from '../../assets/wave.svg';
 import './HomePageInfo.css';
 
 function HomePageInfo() {

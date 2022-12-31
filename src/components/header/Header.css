@@ -3,6 +3,7 @@ nav {
     background-color: black;
     display: flex;
     flex-direction: row;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .header-nav-bar {
@@ -18,7 +19,6 @@ nav {
 .nav-link {
     padding: 15px;
     color: white;
-    text-decoration: red;
 }
 
 .site-logo {

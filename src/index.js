@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Achievements from "./pages/Achievements";
-import BlogHome from "./pages/blog/BlogHome";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Achievements from './pages/Achievements';
+import BlogHome from './pages/blog/BlogHome';
 import Layout from './Layout';
-import FCI from "./pages/blog/posts/FCI";
-import NoPage from "./pages/NoPage";
-import Kafka from "./pages/blog/posts/Kafka";
+import FCI from './pages/blog/posts/FCI';
+import NoPage from './pages/NoPage';
+import Kafka from './pages/blog/posts/Kafka';
 import './index.css';
 
 export default function App() {

@@ -1,12 +1,18 @@
 .blog-post {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Optima, sans-serif;
 }
 
 .blog-content {
     text-align: left;
+    font-size: medium;
 }
 
-.questioning {
+.italics {
     font-style: italic;
+}
+
+.kafka-diagram {
+
 }
