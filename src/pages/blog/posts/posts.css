@@ -1,7 +1,19 @@
 .blog-post {
-    padding-left: 150px;
-    padding-right: 150px;
-    font-family: Optima, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Andale Mono", monospace;
+}
+
+.blog-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.blog-post-paper {
+    width: 60%;
+    height: 100%;
+    alignment: center;
 }
 
 .blog-content {
@@ -11,8 +23,9 @@
 
 .italics {
     font-style: italic;
+    font-weight: bold;
 }
 
 .kafka-diagram {
-
+    width: 60%;
 }

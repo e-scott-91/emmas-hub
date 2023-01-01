@@ -20,7 +20,7 @@ import { ReactComponent as IEEE } from "../assets/ieee-logo.svg";
 export default function Achievements() {
     return (
         <div className="achievements-page">
-            <h1 className="italics">A few notable points from recent years...</h1>
+            <h1 className="italics">Some notable points from recent years...</h1>
             <Timeline>
                 <TimelineItem>
                     <TimelineOppositeContent

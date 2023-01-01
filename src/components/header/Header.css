@@ -3,7 +3,7 @@ nav {
     background-color: black;
     display: flex;
     flex-direction: row;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Andale Mono", monospace;
 }
 
 .header-nav-bar {
