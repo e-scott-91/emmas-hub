@@ -108,8 +108,26 @@ export default function Kafka() {
                         <ul>
                             <li>Each transaction acts as a record and its occurrence is an event.</li>
                             <li>The payments topic which is hosted within the Kafka cluster accepts the record from
-                            the producer and provides it to a con</li>
+                            the producer and provides it to a consumer (who is subscribed to the topic) in real time.</li>
+                            <li>The Mobile Payment application acts as the Producer and published transaction data (events) to the topic.</li>
+                            <li>The application for processing transaction data is the consumer.</li>
+                            <li>In the overall process, in real time, the Kafka Cluster will take transactions as a record from the
+                            producer and provide it to an application acting as a consumer.</li>
                         </ul>
+                        <br/>
+                        <p className="italics">Events</p>
+                        <p>These are the data records. A record is something having happened in your business environment. And example in banking
+                        could be a transaction being settled. It consists of a key and value, identities you define upon design, and a timestamp.</p>
+                        <br/>
+                        <p className="italics">Producer & Consumers</p>
+                        <p>These are the applications (or microservices) that either publish (produce) or subscribe (consume) these events. A single service
+                        can be both a consumer and a producer for different topics (see below) allowing for applications with functionality for complex business problems.</p>
+                        <br/>
+                        <p className="italics">Topics</p>
+                        <p>This is where events are published to and read from. The events can be read as often as required (a key feature that differentiates Kafka from
+                        more traditional messaging systems where messages are often deleted after consumption). You define a retention period for how long a topic should keep
+                        events and increasing this does not reduce performance. It does of course increase the memory needed.</p>
+                        <br/>
                     </div>
                 </div>
             </Paper>

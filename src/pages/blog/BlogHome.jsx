@@ -16,8 +16,8 @@ export default function BlogHome() {
             <div className="blog-posts">
                 <Link to="/blogs/pour" className="blog-post-option">
                     <h2>POUR</h2>
-                    <p className="blog-post-option-description">POUR is an essential Web Accessibility Acronym summarise the principles one should follow
-                    when designing and implementing an web content.</p>
+                    <p className="blog-post-option-description">POUR is an essential Web Accessibility acronym summarising the principles one should follow
+                    when designing and implementing any web content. This post describes the concepts with examples as well as providing some key resources for further reading.</p>
                     <p className="blog-post-date">January 2023</p>
                 </Link>
                 <Divider />
