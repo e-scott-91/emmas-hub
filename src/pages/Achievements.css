@@ -7,13 +7,9 @@
     font-family: "Andale Mono", monospace;
     text-align: left;
     align-items: flex-start;
+    justify-content: space-around;
 }
 
 .small-font {
     font-size: x-small;
-}
-
-.a11y {
-    height: 100px;
-    width: 100px;
 }

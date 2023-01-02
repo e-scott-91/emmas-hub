@@ -1,5 +1,11 @@
 import React from 'react';
 import Paper from '@mui/material/Paper';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 import kafkaDiagram from '../../../assets/kafka-diagram.png';
 import './posts.css';
 
@@ -9,7 +15,6 @@ export default function Kafka() {
             <Paper className="blog-post-paper" elevation={3}>
                 <div className="blog-post">
                     <h1>Kafka</h1>
-                    <h3 className="italics">Feb 2022</h3>
                     <div className="blog-content">
                         <p>
                             I have been working with Kafka for about 5 months now and think it is great. It is also used by
@@ -36,7 +41,44 @@ export default function Kafka() {
 
                             Stream processing instead incolves processing each event in real time as they occur/ arrive.
                         </p>
-                        <p>USE CASE TABLE</p>
+                        <br />
+                        <TableContainer component={Paper}>
+                            <Table sx={{ minWidth: 650}} aria-label="simple table">
+                                <TableHead>
+                                    <TableRow>
+                                        <TableCell sx={{ fontWeight:"bold"}}>Stream Processing</TableCell>
+                                        <TableCell sx={{ fontWeight:"bold"}}>Batch Processing</TableCell>
+                                    </TableRow>
+                                </TableHead>
+                                <TableBody>
+                                    <TableRow
+                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                    >
+                                        <TableCell component="th" scope="row">
+                                            LinkedIn - for the activity stream along with operational metrics
+                                        </TableCell>
+                                        <TableCell>End of day calculations (e.g. revenue calculations across a chain of shops)</TableCell>
+                                    </TableRow>
+                                    <TableRow
+                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                    >
+                                        <TableCell component="th" scope="row">
+                                            Netflix - real time monitoring
+                                        </TableCell>
+                                        <TableCell>Payroll</TableCell>
+                                    </TableRow>
+                                    <TableRow
+                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                    >
+                                        <TableCell component="th" scope="row">
+                                            Twitter - continual machine learning pipeline
+                                        </TableCell>
+                                        <TableCell>In depth analysis of large amounts of data</TableCell>
+                                    </TableRow>
+                                </TableBody>
+                            </Table>
+                        </TableContainer>
+                        <br/>
                         <p className="italics">What makes it better than alternatives?</p>
                         <ul>
                             <li>It is distributed. It runs on a cluster that can span several severs or even several data centres.
@@ -63,7 +105,11 @@ export default function Kafka() {
                         </p>
                         <img src={kafkaDiagram} className="kafka-diagram" alt="A basic flow diagram of a kafka cluster with a producer being a mobile payments app
                         a consumer being a consumer being an application which processes the data and the payments topic within the main cluster." />
-
+                        <ul>
+                            <li>Each transaction acts as a record and its occurrence is an event.</li>
+                            <li>The payments topic which is hosted within the Kafka cluster accepts the record from
+                            the producer and provides it to a con</li>
+                        </ul>
                     </div>
                 </div>
             </Paper>

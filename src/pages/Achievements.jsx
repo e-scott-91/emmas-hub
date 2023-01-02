@@ -1,5 +1,4 @@
 import React from 'react';
-import a11y from "../assets/AccessibilityChampion.jpeg";
 import './Achievements.css';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -15,13 +14,12 @@ import SchoolIcon from '@mui/icons-material/School';
 import Typography from '@mui/material/Typography';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
-import { ReactComponent as IEEE } from "../assets/ieee-logo.svg";
 
 export default function Achievements() {
     return (
         <div className="achievements-page">
             <h1 className="italics">Some notable points from recent years...</h1>
-            <Timeline>
+            <Timeline className="timeline">
                 <TimelineItem>
                     <TimelineOppositeContent
                         sx={{ m: 'auto 0' }}

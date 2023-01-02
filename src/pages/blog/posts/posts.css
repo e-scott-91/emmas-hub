@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .blog-post-paper {
     width: 60%;
@@ -19,6 +20,8 @@
 .blog-content {
     text-align: left;
     font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .italics {
@@ -28,4 +31,5 @@
 
 .kafka-diagram {
     width: 60%;
+    padding-left: 20%;
 }

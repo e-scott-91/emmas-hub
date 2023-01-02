@@ -31,3 +31,8 @@
     text-align: left;
     padding-left: 50px;
 }
+
+.blog-post-date {
+    text-align: right;
+    font-size: medium;
+}

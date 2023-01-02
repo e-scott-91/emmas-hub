@@ -8,7 +8,6 @@ export default function FCI() {
             <Paper className="blog-post-paper" elevation={3}>
                 <div className="blog-post">
                     <h1>RUM FCI</h1>
-                    <h3 className="italics">December 2022</h3>
                     <div className="blog-content">
                         <p>
                             As a former backend developer, RUM was a new term to me and as is often the case, sounded a lot more intimating than it actually is until I learnt more so I thought I’d share.
@@ -23,16 +22,20 @@ export default function FCI() {
 
                         </p>
                         <p>
-                            Before closing as usual I like to state some strengths and weaknesses of the topics I cover. Strengths:
-
-                            - Obvious but worth noting. Insights into real user’s experiences is invaluable. They are who we make the application for!
-                            - Adaptable based on needs. As an area it can provide you with a variety of insights from improvement along with resolution of inicdents.
-
-                            Weaknesses:
-
-                            - It depends on the volume of users being high enough to provide the data you are looking for. If it is in the middle of the night or your application is not popular yet, this can hold you back.
-                            - It can generate large volumes of data meaning the right visualisation tools and storage volumes are essential.
+                            Before closing as usual I like to state some strengths and weaknesses of the topics I cover.
                         </p>
+                        <br/>
+                        <p className="italics">Strengths</p>
+                        <ul>
+                            <li>Obvious but worth noting. Insights into real user’s experiences is invaluable. They are who we make the application for!</li>
+                            <li>Adaptable based on needs. As an area it can provide you with a variety of insights from improvement along with resolution of incidents.</li>
+                        </ul>
+                        <br/>
+                        <p className="italics">Weaknesses:</p>
+                        <ul>
+                            <li>It depends on the volume of users being high enough to provide the data you are looking for. If it is in the middle of the night or your application is not popular yet, this can hold you back.</li>
+                            <li>It can generate large volumes of data meaning the right visualisation tools and storage volumes are essential.</li>
+                        </ul>
                     </div>
                 </div>
             </Paper>

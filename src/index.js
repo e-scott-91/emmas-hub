@@ -9,6 +9,7 @@ import FCI from './pages/blog/posts/FCI';
 import NoPage from './pages/NoPage';
 import Kafka from './pages/blog/posts/Kafka';
 import './index.css';
+import Pour from "./pages/blog/posts/Pour";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="blogs" element={<BlogHome/>}/>
                     <Route path="blogs/FCI" element={<FCI/>}/>
                     <Route path="blogs/kafka" element={<Kafka/>}/>
+                    <Route path="blogs/pour" element={<Pour/>}/>
                     <Route path="achievements" element={<Achievements/>}/>
                     <Route path="*" element={<NoPage/>}/>
                 </Route>
