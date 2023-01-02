@@ -2,6 +2,7 @@
   "name": "emmas-hub",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://e-scott-91.github.io/emmas-hub/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
