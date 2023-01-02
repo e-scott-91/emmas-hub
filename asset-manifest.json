@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/emmas-hub/static/css/main.9496652d.css",
+    "main.js": "/emmas-hub/static/js/main.943fc81c.js",
+    "static/media/kafka-diagram.png": "/emmas-hub/static/media/kafka-diagram.3a4bdb55e1747d2a43a8.png",
+    "static/media/avatar.png": "/emmas-hub/static/media/avatar.ac24545e4ab329878513.png",
+    "static/media/wave.svg": "/emmas-hub/static/media/wave.cc406e74a49059e7318ed02310b1d0ab.svg",
+    "static/media/mediumIcon.svg": "/emmas-hub/static/media/mediumIcon.18b1664f640731f5d52905c2a93bc166.svg",
+    "static/media/githubIcon.svg": "/emmas-hub/static/media/githubIcon.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/emmas-hub/index.html",
+    "static/media/linkedInIcon.svg": "/emmas-hub/static/media/linkedInIcon.b34f525d63a7e0108a59942cc1e73fff.svg",
+    "main.9496652d.css.map": "/emmas-hub/static/css/main.9496652d.css.map",
+    "main.943fc81c.js.map": "/emmas-hub/static/js/main.943fc81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9496652d.css",
+    "static/js/main.943fc81c.js"
+  ]
+}
