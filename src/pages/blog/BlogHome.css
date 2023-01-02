@@ -1,0 +1,38 @@
+.blog-page {
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: "Andale Mono", monospace;
+}
+
+.books-image {
+    padding-left: 15px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.blog-post-option {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blog-post-option-description {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.blog-post-date {
+    text-align: right;
+    font-size: medium;
+}

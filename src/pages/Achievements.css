@@ -1,0 +1,15 @@
+.achievements-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: "Andale Mono", monospace;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.small-font {
+    font-size: x-small;
+}

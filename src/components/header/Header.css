@@ -1,10 +1,9 @@
-nav{
-    height: 50px;
-    width: 100%;
+nav {
     border: 1px solid grey;
-    position: absolute;
-    top:0;
-    left:0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: "Andale Mono", monospace;
 }
 
 .header-nav-bar {
@@ -12,13 +11,18 @@ nav{
     height: 100%;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
 }
 
-.div-svg {
-    height: 45px;
-    width: 45px;
-    padding: 20px;
+.nav-link {
+    padding: 15px;
+    color: white;
+}
+
+.site-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
